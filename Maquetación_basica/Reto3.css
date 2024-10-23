@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 390px;
+    height: 80vh;
+    border: 10px solid rgba(128, 128, 128, 0.225);
+    border-radius: 6px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+header{
+    border:5px solid rgb(208, 238, 208);
+    height: 15%;
+    margin: 5px 5px ;
+    border-radius: 6px;
+    padding: 7px 10px;
+}
+
+nav{
+    border: 5px solid rosybrown;
+    height: 8%;
+    margin: 5px 5px;  
+    border-radius: 6px;
+    padding: 7px 10px;
+
+}
+
+.container2{
+    border: 0px solid rgb(255, 255, 255);
+    height: 65%;
+    display:flex;
+    flex-direction: row;
+    margin: 3px;  
+    border-radius: 6px;
+    
+}
+
+article{
+    border:5px solid rgb(104, 158, 235);
+    height: 98%;
+    width: 90%;
+    margin: 3px;  
+    border-radius: 6px;
+    
+    
+}
+
+#divartic{
+    border: 5px solid rgb(255, 255, 255);
+    height: 34%
+    
+    
+}
+section{
+        border: 5px solid rgb(167, 121, 184);
+        height: 15%;
+        margin: 5px 5px;  
+        border-radius: 6px;  
+        padding: 7px 10px; 
+
+    }
+
+
+
+.div_hijo{
+    border:5px solid rgb(230, 205, 105);
+    height: 98%;
+    width:40%;
+    margin: 5px 5px;
+    border-radius: 6px;    
+    }
+
+aside{
+    border:5px solid rgb(142, 227, 234);
+    height: 45%;
+    width: 90%;
+    margin: 5px 5px;  
+    border-radius: 6px;  
+    justify-content: center;
+    padding: 7px 10px;
+
+    
+}
+
+Footer{
+    border: 5px solid rgb(231, 232, 168);
+    height: 8%;
+    margin: 5px 5px;    
+    border-radius: 6px;
+    padding: 7px 10px;
+}
+
+#footer2 {
+    border: 5px solid rgb(231, 232, 168);
+    height: 8%;
+    margin: 5px 5px;    
+    border-radius: 6px; 
+    padding: 1px;   
+}
