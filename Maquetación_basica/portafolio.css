@@ -11,7 +11,7 @@
 {
     width: 100%;
     height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -32,9 +32,10 @@ header{
 }
 
 a{
-    border: 1px solid rgba(11, 11, 11, 0.959);
+    /* border: 1px solid rgba(11, 11, 11, 0.959); */
     align-content: center;
     color:white;
+    font-weight: 500;
 
     
     
@@ -42,21 +43,22 @@ a{
 
 .container2{
     width: 100%;
-    height: 725px;
-    border: 2px solid rgb(31, 117, 41);
+    height: 80%;
+    /* border: 6px solid rgb(31, 117, 41); */
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    align-content: center;
-        
+    align-items: center;
+    justify-items: flex-start;
+
+      
+      
 }
 
 
 h2{
     width: 100%;
-    height: 80px; 
-    padding:20px 0px 10px 20px;
-    border: 2px solid rgb(238, 255, 0);
+    height: 40px; 
+    /* border: 2px solid rgb(238, 255, 0); */
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -66,9 +68,8 @@ h2{
 
  h3{
     width: 100%;
-    height: 80px; 
-    padding: px 0px 10px 20px;
-    border: 2px solid rgb(238, 255, 0);
+    height: 40px; 
+    /* border: 2px solid rgb(38, 0, 255); */
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -83,21 +84,24 @@ h2{
 
 p{
     width: 100%;
-    height: 80px; 
-    padding:20px 0px 10px 20px;
-    border: 2px solid rgb(238, 255, 0);
+    height: 30px; 
+    padding:20px 0px 0px 0px;
+    /* border: 2px solid rgb(238, 255, 0); */
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-content: center;
+    text-align: center;
+    text-justify: center;
     font-weight: 600;
+
 }
 
 #pa{
     width: 100%;
-    height: 80px; 
-    padding:0px 0px 10px 20px;
-    border: 2px solid rgb(255, 47, 0);
+    height: 30px; 
+    padding:20px 0px 10px 20px;
+    /* border: 2px solid rgb(255, 47, 0); */
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -108,8 +112,8 @@ p{
 
 .container3{
     width: 100%;
-    height: 100%;
-    border: 5px solid rgba(76, 118, 176, 0.959);
+    height: 375px;
+    /* border: 5px solid rgba(176, 76, 176, 0.959); */
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -121,9 +125,32 @@ p{
 img{
     width: 280px;
     height: 375px;
-    border: 5px solid rgb(157, 255, 0);
+    /* border: 5px solid rgb(205, 214, 131); */
     display:flex;
     flex-direction: row;
     align-content: center;   
     justify-content: center;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 10%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: end;
+}
+
+#fo{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(236, 235, 234);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
 }
