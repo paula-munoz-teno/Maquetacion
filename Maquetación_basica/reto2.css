@@ -1,0 +1,48 @@
+.gridareas{
+    display:grid;
+    height: 500px;
+    width: 1000px;
+    grid-template-columns:2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+
+   
+
+} 
+.hijo1{
+background-color: rgba(95, 245, 8, 0.422);
+justify-content: center;
+text-align: center;
+
+}
+
+.hijo2{
+background-color:black;
+color:white;
+text-align: center;
+}
+
+.hijo3{
+background-color: rgba(95, 245, 8, 0.422);
+text-align: center;
+}
+
+.hijo4{
+background-color: black;
+color:white;
+text-align: center;
+
+}
+
+.hijo5{
+background-color: rgba(95, 245, 8, 0.422);
+text-align: center;
+}
+
+.hijo6{
+background-color: black;
+color:white;
+text-align: center;
+}
+
+
+  

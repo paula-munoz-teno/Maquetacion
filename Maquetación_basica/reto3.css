@@ -1,0 +1,4 @@
+.padre{
+    grid-template-columns: [x0]1fr[x2]1fr[x3]1f[x4]1fr[x5];
+    grid-template-rows: [y0]1fr[y2]1fr[y3]1f[y4]1fr[y5];
+}
