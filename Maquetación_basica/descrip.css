@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(186, 184, 52);
+}
+
+a{
+    /* border: 1px solid rgba(11, 11, 11, 0.959); */
+    align-content: center;
+    color: white;
+    font-weight: 500;    
+    
+} 
+
+ .container2{
+    width: 100%;
+    height: 85%;
+    /* border: 2px solid rgb(31, 117, 41); */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+        
+}
+
+
+h1{
+    width: 100%;
+    height: 70px; 
+    padding:0px 0px 10px 20px;
+    /* border: 5px solid rgb(238, 255, 0); */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    margin: 40px 0px 0px 0px;
+ }
+
+
+
+.container3{
+    width: 100%;
+    height: 700px;
+    /* border: 5px solid rgba(222, 155, 40, 0.959); */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:0px 0px 20px 0px;
+   
+   
+} 
+
+#pau{
+    width: 33%;
+    height: 320px;
+    /* border: 5px solid rgb(62, 90, 19); */
+    display:flex;
+    flex-direction: row;
+    align-content: center;   
+    justify-content: center;
+}
+
+
+.present{
+    width: 33%;
+    height: 100%;
+    /* border: 5px solid rgba(232, 21, 162, 0.959); */
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.pa{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid brown; */
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
+}
+
+
+
+
+
+#pa{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(184, 208, 27); */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+} 
+
+
+    #pe{
+        width: 100%;
+        /* border: 2px solid rgba(76, 118, 176, 0.959); */
+        margin:10px 0px;
+        
+
+    }
+
+img{
+    width: 33%;
+    height: 375px;
+    /* border: 5px solid rgb(157, 255, 0); */
+    display:flex;
+    flex-direction: row;
+    align-content: center;   
+    justify-content: center;
+} 
+
+
+
+
+
+.container4{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid rgba(241, 15, 154, 0.959); */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: rgb(237, 237, 193);
+    
+}
+h2{
+    width: 100%;
+    height: 50px; 
+    /* border: 2px solid rgb(238, 255, 0); */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(237, 237, 193);
+    align-items: center;
+
+  
+
+ }
+.email{
+    width: 100%;
+    height: 50px;
+    /* border: 5px solid rgba(112, 15, 15, 0.959); */
+    display:flex;
+    flex-direction: row;
+    align-content: center;   
+    justify-content: center;
+    background-color: white;
+
+}
+
+.number{
+    width: 100%;
+    height: 50px;
+    /* border: 5px solid rgba(15, 52, 112, 0.959); */
+    display:flex;
+    flex-direction: row;
+    align-content: center;   
+    justify-content: center;
+    background-color: white;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    /* border: 5px solid rgb(157, 255, 0); */
+    display:flex;
+    flex-direction: row;
+    align-content: center;   
+    justify-content: center;
+} 
+
+
+#emailText{
+    width: 225px;
+    height: 50px;
+    /* border: 5px solid orange; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+#numberText{
+    width: 225px;
+    height: 50px;
+    /* border: 5px solid orange; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 10%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: end;
+    background-color:rgb(237, 237, 193);
+    
+}
+
+#fo{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(236, 235, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+}

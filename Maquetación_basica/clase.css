@@ -1,0 +1,179 @@
+ 
+/* PSEUDOCLASE */
+
+/* .myclass {
+margin: 0 auto;
+background-color: red;
+}
+.myclass:hover {
+background-color: aqua;
+}
+.myclass:lang(es) {
+background-color: white;
+}
+.myclass:lang(en) {
+background-color: purple;
+}
+.myclass:checked {
+background-color: yellow;
+}
+.myclass:focus {
+background-color: green;
+}
+.myclass:disabled {
+background-color: black;
+}
+
+
+/* PSEUDOELEMENTO */
+p {
+    margin: 0 auto;
+    font-size: 11px;
+    }
+    p::first-letter {
+    font-size: 24px;
+    }
+    p::before {
+    content: "Me sitúo delante ";
+    color: red;
+    }
+    p::after {
+    content: "Me sitúo detrás";
+    color: red;
+    }
+    input::placeholder {
+    color: purple;
+    }
+
+
+/* VARIABLES */
+:root {
+    --myColorVar: #f5f301;
+    }
+    p {
+    background-color: var(--myColorVar);
+    --myColorVar2: #f503f1;
+    color: var(--myColorVar2);
+    }
+    /* El scope de la variable --myColorVar2
+    está
+    limitado a usarse dentro de las etiqueta
+    s p 
+    "--" PARA DEFINIR VARIABLES --> --caja: hoy*/
+
+
+
+/* FUNCIONES */
+section {
+width: min(800px, calc(100vw - 20px));
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+div {
+background-color: red;
+min-width: min(80%, 100px);
+max-width: min(80%, 100px);
+min-height: 100px;
+max-height: 100px;
+transform: none;
+transition: transform 2s ease-in-out;
+}
+div:hover {
+transform: rotate(360deg) scale(1.5);
+transition: transform 2s ease-in-out;
+} */
+
+/* LIMPIADORES */
+* {
+    /* Define la fuente que se vaya a usar en el pryecto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* La unidad relativa em ahora será siempre igual a 11px */
+    font-size: 11px;
+    /* El borde de la caja se calculará como parte de la anchura y la altur
+    a de la misma */
+    box-sizing: border-box;
+    /* Eliminamos todos los márgenes y los espacios para definirlos de 0 */
+    margin: 0;
+    padding: 0;
+    }
+
+
+/* TRANSICIONES */
+<head>
+<style>
+.color {
+background-color: red;
+transition: background-color 2s 1s;
+}
+.color:hover {
+background-color: goldenrod;
+transition: background-color 2s;
+}
+</style>
+</head>
+<body>
+<p>
+<span class="color">Efecto de transición de color</span>
+</p>
+</body>
+</html>
+
+/* POSITION */
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="Position y medidas.css">
+<style>
+body {
+min-height: 150vh; /* Forzamos un scroll */
+background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1
+) 35%, rgba(0,212,255,1) 100%);
+}
+</style>
+</head>
+<body>
+<div class="myClass myClass1"><p>static</p></div>
+<div class="myClass myClass2"><p>relative</p></div>
+<div class="myClass myClass3"><p>absolute</p></div>
+<div class="myClass myClass4"><p>fixed</p></div>
+</body>
+</html>
+
+.myClass {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    }
+    .myClass1 {
+    position: static;
+    top: 200px; /* Not work! */
+    }
+    .myClass2 {
+    position: relative;
+    left: 300px;
+    }
+    .myClass3 {
+    position: absolute;
+    bottom: 0;
+    }
+    .myClass4 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    }
+
+    */
