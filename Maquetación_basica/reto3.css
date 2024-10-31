@@ -1,4 +1,37 @@
 .padre{
     grid-template-columns: [x0]1fr[x2]1fr[x3]1f[x4]1fr[x5];
-    grid-template-rows: [y0]1fr[y2]1fr[y3]1f[y4]1fr[y5];
+    grid-template-rows: [y0]1fr[y2]1fr[y3]1f[y4]1fr[y5]1fr[y6]1fr[y7]1fr[y8]1f[y9];
+}
+
+.h1{
+    grid-column: x0/x5;
+    grid-row: y0/y1 ;
+    background-color:black;
+    color:white
+}
+
+
+.h2{
+    grid-column: x0/x5;
+    grid-row: y0/y1 ;
+    background-color:blue;
+}
+
+
+.h3{
+    grid-column: x0/x5;
+    grid-row: y0/y1 ;
+    background-color:aquamarine;
+}
+
+.h4{
+    grid-column: x0/x5;
+    grid-row: y0/y1 ;
+    background-color:purple;
+}
+
+.h5{
+    grid-column: x0/x5;
+    grid-row: y0/y1 ;
+    background-color:purple;
 }
