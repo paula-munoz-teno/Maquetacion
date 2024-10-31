@@ -52,9 +52,11 @@
 //let array = (A, Bbcn, Cmall, Dpueblo, E, F, G)
  
 
-let arrayfiltrado =[]
+
 
 function filterResult(){
+
+    let arrayfiltrado =[]
     
     for(let i=0; i<array.length; i++)
     
@@ -64,8 +66,10 @@ function filterResult(){
 
     if(destinomayus == "GALICIA"|| destinomayus == "MALLORCA" 
         || destinomayus == "CANARIAS"){
-      arrayfiltrado.push(array[i])
+      arrayfiltrado.push(array[i])     
+    
      }   
+    //linner.html añadir al padre o sección vacía//
    }
    console.log(arrayfiltrado)
 }
