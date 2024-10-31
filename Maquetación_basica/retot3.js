@@ -26,32 +26,164 @@
 // muestre por consola la información de las solicitudes recibidas que tengan como destino
 // Canarias, Mallorca o Galicia (tener en cuenta que los usuarios pueden escribir, el destino en
 // mayuscula o minuscula).
+
 // Modifica la función anterior para que ahora muestre esos datos en una en la landing page
 // maquetada anteriormente
 
+//let array = (A, Bbcn, Cmall, Dpueblo, E, F, G)
 
 
-function filterResult() {
-    const name = document.getElementById('name').value;
-    const origin = document.getElementById('origin').value;
-    const destination = document.getElementById('destination').value;
-    const numPeople = document.getElementById('numPeople').value;
-    const date = document.getElementById('date').value;
+   
+ 
+//  let arrayfiltrado =[]
+
+//  function filterResult(){
+     
+//     let i = 0;
+//     for(i=0; i<length; i++)
+//     {   arrayfiltrado.push(array[i][2] == galicia.tuUppercase() || 
+//         mallorca.tuUppercase() || canarias.tuUppercase())
+//        }
+
+//        console.log(arrayfiltrado)
+//     }
 
 
-    array.push(objetoliteral);
+//let array = (A, Bbcn, Cmall, Dpueblo, E, F, G)
+ 
 
-    if(array[length][2].toUppercase() = CANARIAS){
-        console.log(array)
-    }
-    else if(array[length][2].toUppercase() = MALLORCA ){
-        console.log(array)
-    }
-    else if (array[length][2].touppercase() = GALICIA){
-        console.log(array)
-    }
+let arrayfiltrado =[]
+
+function filterResult(){
     
+   let i = 0;
+   for(i=0; i<length; i++)
+    
+   {
+    let destinomayus = array[i][2].toUppercase();
+
+    if(destinomayus == GALICIA|| 
+   MALLORCA || CANARIAS){
+      arrayfiltrado.push(array[i])
+     } 
+       
+   }
+   console.log(arrayfiltrado)
 }
+
+    // let arrayfiltrado =[]
+
+    // function filterResult(){
+        
+    //    let i = 0;
+    //    for(i=0; i<length; i++)
+        
+    //    {if(array[i][2] == galicia.tuUppercase() || 
+    //     mallorca.tuUppercase() || canarias.tuUppercase()){
+    //       arrayfiltrado.push(array[i])
+    //      } 
+           
+    //    }
+    //    console.log(arrayfiltrado)
+    // }
+
+    // let arrayfiltrado =[]
+
+    // function filterResult(){
+        
+    //    let i = 0;
+    //    let destinomayus = array[0][2].toUppercase();
+       
+    //    for(i=0; i<length; i++)      
+    //    {if(destinomayus == GALICIA|| 
+    //     MALLORCA || CANARIAS){
+    //       arrayfiltrado.push(array[i])
+    //      } 
+    //      console.log(arrayfiltrado)  
+    //    }
+      
+    // }
+
+
+
+
+
+
+
+// let runners = [“Pedro”, “Antonio”, “María”, “Lucía”, “Lucas”, “Javier”, “Isabel”,
+//     “Jaime”];
+//     let text = “”;
+//     let i = 0;
+    
+//     while(i <5)
+//     {
+//     text += runners[i] + “\n”;
+//     i++;
+//     }
+//     console.log(text)
+
+//     function filterResult(){
+     
+//         let i = 0;
+//         let arrayfiltrado =[]
+    
+//         for(i=0; i<length; i++)
+//         {
+//            if (array[i][2] == galicia.tuUppercase() || 
+//            mallorca.tuUppercase() || canarias.tuUppercase()){
+//             arrayfiltrado.push(array[])
+//            }
+        
+//         }
+//      }
+
+
+
+
+//     for(let i=0; i < 5; i++)
+//         {
+//         console.log(“Bienvenido a Codenotch”);
+//         }
+
+
+//     // for (i<length)
+
+
+
+//     // if (i<length){
+//     //  let arrayfiltrado = array[i][]
+
+//     // }
+
+
+
+// }
+
+
+
+
+
+// function filterResult() {
+//     const name = document.getElementById('name').value;
+//     const origin = document.getElementById('origin').value;
+//     const destination = document.getElementById('destination').value;
+//     const numPeople = document.getElementById('numPeople').value;
+//     const date = document.getElementById('date').value;
+
+
+//     array.push(objetoliteral);
+
+//     ifarray[]
+//         console.log(array)
+//     }
+//     else if(array[length][2].toUppercase() = MALLORCA ){
+//         console.log(array)
+//     }
+//     else if (array[length][2].touppercase() = GALICIA){
+//         console.log(array)
+//     }
+    
+// }
 
     
 
@@ -93,7 +225,3 @@ function filterResult() {
     //     array.push(name, origin, destination, numPeople, date);
     //     console.log(array);
     // }
-
-
-
-
