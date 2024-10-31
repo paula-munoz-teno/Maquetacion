@@ -56,17 +56,16 @@ let arrayfiltrado =[]
 
 function filterResult(){
     
-   let i = 0;
-   for(i=0; i<length; i++)
+    for(let i=0; i<array.length; i++)
     
    {
-    let destinomayus = array[i][2].toUppercase();
+    console.log(array[i].destino)
+    let destinomayus = array[i].destino.toUpperCase();
 
-    if(destinomayus == GALICIA|| 
-   MALLORCA || CANARIAS){
+    if(destinomayus == "GALICIA"|| destinomayus == "MALLORCA" 
+        || destinomayus == "CANARIAS"){
       arrayfiltrado.push(array[i])
-     } 
-       
+     }   
    }
    console.log(arrayfiltrado)
 }
