@@ -119,6 +119,27 @@ h1{
    
 } 
 
+.container24{
+    width: 100%;
+    height: 600px;
+    border: 70px solid rgb(255, 217, 0);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    font-size: small;
+    margin:100px 0px 0px 0px;  
+   
+} 
+
+p{
+    font-weight: 700;
+}
+
+
+
 
 
 h4{

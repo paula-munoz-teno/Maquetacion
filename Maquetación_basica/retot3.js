@@ -53,26 +53,104 @@
  
 
 
-
 function filterResult(){
 
     let arrayfiltrado =[]
     
-    for(let i=0; i<array.length; i++)
-    
-   {
+    for(let i=0; i<array.length; i++) {
     console.log(array[i].destino)
     let destinomayus = array[i].destino.toUpperCase();
 
     if(destinomayus == "GALICIA"|| destinomayus == "MALLORCA" 
         || destinomayus == "CANARIAS"){
-      arrayfiltrado.push(array[i])     
-    
-     }   
-    //linner.html añadir al padre o sección vacía//
+
+      arrayfiltrado.push(array[i]); 
+     }          
    }
    console.log(arrayfiltrado)
-}
+
+   for(let i=0; i<arrayfiltrado.length; i++){
+     
+      let solicitud = arrayfiltrado[i];
+      let elemento = document.getElementById("op");
+      elemento.innerHTML += "<p>Nombre:</p>";
+      elemento.innerHTML += solicitud.nombre;
+      elemento.innerHTML += "<p>   </p>";
+      elemento.innerHTML += "<p>Origen:</p>";
+      elemento.innerHTML += solicitud.origen;
+      elemento.innerHTML += "<p>   </p>";
+      elemento.innerHTML += "<p>Destino:</p>";
+      elemento.innerHTML += solicitud.destino;
+      elemento.innerHTML += "<p>    </p>";
+      elemento.innerHTML += "<p>numPersonas:</p>";
+      elemento.innerHTML += solicitud.numPersonas;
+      elemento.innerHTML += "<p>    </p>";
+      elemento.innerHTML += "<p>Fecha:</p>";
+      elemento.innerHTML += solicitud.fecha;
+      elemento.innerHTML += "<p>    </p>";
+          
+
+      
+    }
+
+   //Aquí ya tengo mi array con los destinos filtrados
+   //arrayfiltrado: bcnA, mallA,ccanA
+
+  
+   }
+
+
+
+
+//    elemento.innerHTML += "<p>nombre</p>" && solicitud.nombre;
+//    //   elemento.innerHTML +=  <p> Origen: {solicitud.origen}</p>;
+//    //   elemento.innerHTML +=<p> Nombre: {solicitud.destino}</p>;
+//    //   elemento.innerHTML +=  <p> Nombre: {solicitud.numPersonas}</p>;
+//    //   elemento.innerHTML += <p> Nombre: { solicitud.fecha}</p>;
+
+// function filterResult(){
+
+//     let arrayfiltrado =[]
+    
+//     for(let i=0; i<array.length; i++) {
+//     console.log(array[i].destino)
+//     let destinomayus = array[i].destino.toUpperCase();
+
+//     if(destinomayus == "GALICIA"|| destinomayus == "MALLORCA" 
+//         || destinomayus == "CANARIAS"){
+
+//       arrayfiltrado.push(array[i]); 
+//      }          
+//    }
+//    console.log(arrayfiltrado)
+
+//    for(let i=0; i<arrayfiltrado.length; i++){
+     
+//       let solicitud = arrayfiltrado[i];
+//       let elemento = document.getElementById("op");
+//       elemento.innerHTML += solicitud.nombre;
+//       elemento.innerHTML += solicitud.origen;
+//       elemento.innerHTML += solicitud.destino;
+//       elemento.innerHTML += solicitud.numPersonas;
+//       elemento.innerHTML += solicitud.fecha;
+//     }
+
+//    //Aquí ya tengo mi array con los destinos filtrados
+//    //arrayfiltrado: bcnA, mallA,ccanA
+
+  
+//    }
+
+
+
+
+
+
+// let elemento = document.getElementById("Form");
+// elemento.innerHTML =  for(let ){
+
+
+    //linner.html añadir al padre o sección vacía//
 
     // let arrayfiltrado =[]
 
