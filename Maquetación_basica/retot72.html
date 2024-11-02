@@ -34,8 +34,13 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-           
+          
           </ul>
+
+          <!-- <div class="nav-item bg-success" style="height: 200px" style="width:200px ;">
+            <a class="nav-link" href="#">ULTIMAS LLEGADAS</a>
+          </div> -->
+          
           <form class="d-flex" role="search">
             <button class="btn btn-outline-dark bg-light" type="submit">CARRITO</button>
           </form>
@@ -60,10 +65,10 @@
         <div class="card px-2 me-4">
           <img src="pantalones_tallealto.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Pantalón suelto gris</h6>
+            <h6 class="card-title" id="nombreprenda">Pantalón suelto gris</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">20€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">20€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -72,10 +77,10 @@
         <div class="card px-2 me-4 ">
           <img src="vestido_tunico.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Vestido Túnico</h6>
+            <h6 class="card-title" id="nombreprenda">Vestido Túnico</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">18€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">18€</p>
+            <button type="button" onclick="recojotInfo()"class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -84,10 +89,10 @@
         <div class="card px-2 me-4">
           <img src="falda_print.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Falda Mid Print</h6>
+            <h6 class="card-title" id="nombreprenda">Falda Mid Print</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">12€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">12€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -96,10 +101,10 @@
         <div class="card px-2 me-4">
           <img src="cardigan_largo_rayas.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Cardigan Rayas</h6>
+            <h6 class="card-title" id="nombreprenda">Cardigan Rayas</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">22€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">22€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -122,10 +127,10 @@
         <div class="card px-2 me-4">
           <img src="falda_mini_zebra.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Falda Mini Zebra</h6>
+            <h6 class="card-title" id="nombreprenda">Falda Mini Zebra</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">12€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">12€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -134,10 +139,10 @@
         <div class="card px-2 me-4">
           <img src="mono_overol.png" class="card-img-top" alt="20px">
           <div class="card-body">
-            <h6 class="card-title">Mono Overol</h6>
+            <h6 class="card-title"id="nombreprenda">Mono Overol</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">20€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">20€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -146,10 +151,10 @@
         <div class="card px-2 me-4">
           <img src="vestido_jersey.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Vestido Jersey</h6>
+            <h6 class="card-title"id="nombreprenda">Vestido Jersey</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">22€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">22€</p>
+            <button type="button" onclick="recojotInfo()"class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -158,10 +163,10 @@
         <div class="card px-2 me-4">
           <img src="pantalon_ancho.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Pantalón ancho</h6>
+            <h6 class="card-title" id="nombreprenda">Pantalón ancho</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p class="card-text">20€</p>
-            <button type="button" class="btn btn-dark">Añadir al carrito</button>
+            <p class="card-text" id="precio">20€</p>
+            <button type="button" onclick="recojotInfo()" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
