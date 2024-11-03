@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+    <link><link rel="stylesheet" href="reto72.css">
+  </head>
   <body>
 
     <!-- navbar -->
@@ -40,7 +41,7 @@
         
         
           <div class="d-flex" role="search">
-            <button class="btn btn-outline-dark bg-light" id="button" type="submit" onclick="mostrar()">CARRITO</button>
+            <button class="btn btn-outline-dark bg-light" id="button" type="submit" onclick="mostrar()" >CARRITO</button>
           </div>
 
 
@@ -56,8 +57,8 @@
     style="display:none;">
    
 
-      <div class="bg-danger d-flex justify-content-center">
-      <div class=" card" style="width: 600px;">
+      <div class=" d-flex justify-content-center">
+      <div class=" card" style="width: 700px;">
         <div class="card-header h6 justify-content-between">
           <button id="button" onclick="ocultar()" >X</button>
 
@@ -67,20 +68,25 @@
         
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
-            <div class="contenedor1" id="pp1">hola</div>
-      
-            <!-- <div class="mostrar row" id="pp1" style="display: none;">
-              <p id="prenda1">Pantalón suelto gris</p>
-              <p id="precio1">20</p>
-            </div> -->
+            <div class="row contenedor1" id="pp1"></div>
+            <div class="row contenedor1" id="pp2"></div>
+            <div class="row contenedor1" id="pp3"></div>
+            <div class="row contenedor1" id="pp4"></div>
+            <div class="row contenedor1" id="pp5"></div>
+            <div class="row contenedor1" id="pp6"></div>
+            <div class="row contenedor1" id="pp7"></div>
+            <div class="row contenedor1" id="pp8"></div>
+
+            
 
           </li>
           <li class="list-group-item ">
             <div class="row">
               <div class ="contenedor p" style="width: 100px;">
-                   <p class=" row bg-danger "> TOTAL COMPRA:</p>
+                   <p class=" row h6" id="etiquetadecompra"> TOTAL COMPRA:</p>
                </div>
-              <div class="contenedor button bg-success d-flex flex-row-reverse " style="width: 450px;">
+              <div class="contedor3 " id="totalcompra" style="width: 100px;" ></div>
+              <div class="contenedor d-flex flex-row-reverse " style="width: 400px;">
                   <button type="button" class="btn btn-secondary mx-2 ">Close</button>
                   <button type="button" class="btn btn-dark">Comprar</button>
               </div>
@@ -114,7 +120,7 @@
             <h6 class="prenda">Pantalón suelto gris</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">20€</p>
-            <button type="button" onclick="add1()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add1(); addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -126,7 +132,7 @@
             <h6 class="prenda">Vestido Túnico</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">18€</p>
-            <button type="button" onclick="requestInfo()"class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add2(); addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -138,7 +144,7 @@
             <h6 class="prenda">Falda Mid Print</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">12€</p>
-            <button type="button" onclick="requestInfo()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add3(); addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -150,7 +156,7 @@
             <h6 class="prenda">Cardigan Rayas</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">22€</p>
-            <button type="button" onclick="requestInfo()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add4(); addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -176,7 +182,7 @@
             <h6 class="prenda">Falda Mini Zebra</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">12€</p>
-            <button type="button" onclick="requestInfo()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add5();addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -188,7 +194,7 @@
             <h6 class="prenda">Mono Overol</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">20€</p>
-            <button type="button" onclick="requestInfo()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add6(); addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -200,7 +206,7 @@
             <h6 class="prenda">Vestido Jersey</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">22€</p>
-            <button type="button" onclick="requestInfo()"class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add7();addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>
@@ -212,7 +218,7 @@
             <h6 class="prenda">Pantalón ancho</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p class="precio">20€</p>
-            <button type="button" onclick="requestInfo()" class="btn btn-dark">Añadir al carrito</button>
+            <button type="button" onclick="add8();addsuma();" class="btn btn-dark">Añadir al carrito</button>
           </div>
         </div>
       </div>

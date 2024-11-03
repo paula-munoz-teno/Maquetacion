@@ -4,20 +4,16 @@
 //A. Cuando le de a carrito me muestre el contenedor
 
     
-//     function mostrar(){
-//         document.getElementById("carrito").style.display="block";
-//     }
+    function mostrar(){
+        document.getElementById("carrito").style.display="block";
+    }
 
-// //B. Cuando le de a la X, desaparece el contenedor 
+//B. Cuando le de a la X, desaparece el contenedor 
 
-//     function ocultar(){
-//         document.getElementById("carrito").style.display="none";
-//     }
+    function ocultar(){
+        document.getElementById("carrito").style.display="none";
+    }
     
-
-//C. Total de compras mostrará la suma de las prendas que se hayan añadido
-
-
 
 
     //Cuando pinche en el botón, se añade a ítem del carrito esta información
@@ -30,17 +26,82 @@
 //     document.getElementById("pp1").style.display="block";
 // }
 
+let array =[];
+
+let numA =20;
+let numB=18;
+let numC =12;
+let numD=22;
+
 
 function add1(){
 
     let elemento = document.getElementById("pp1");
     elemento.innerHTML += "<p>Pantalón suelto gris</p>";
-    elemento.innerHTML += <p>20</p>;
+    elemento.innerHTML += numA;
+    array.push(numA);
 }
 
    
 
+function add2(){
 
+    let elemento = document.getElementById("pp2");
+    elemento.innerHTML += "<p>Vestido túnico</p>";
+    elemento.innerHTML += numB;
+    array.push(numB);
+}
+
+
+
+function add3(){
+
+    let elemento = document.getElementById("pp3");
+    elemento.innerHTML += "<p>Falda Mid Print</p>";
+    elemento.innerHTML += numC;
+    array.push(numC);
+}
+
+function add4(){
+
+    let elemento = document.getElementById("pp4");
+    elemento.innerHTML += "<p>Cardigan Rayas</p>";
+    elemento.innerHTML += numD;
+    array.push(numD);
+}
+
+
+function add5(){
+
+    let elemento = document.getElementById("pp5");
+    elemento.innerHTML += "<p>Falda Mini Zebra</p>";
+    elemento.innerHTML += numC;
+    array.push(numC);
+}
+
+function add6(){
+
+    let elemento = document.getElementById("pp6");
+    elemento.innerHTML += "<p>Mono overol</p>";
+    elemento.innerHTML += numA;
+    array.push(numA);
+}
+
+function add7(){
+
+    let elemento = document.getElementById("pp7");
+    elemento.innerHTML += "<p>Vestido Jersey</p>";
+    elemento.innerHTML += numD;
+    array.push(numD);
+}
+
+function add8(){
+
+    let elemento = document.getElementById("pp8");
+    elemento.innerHTML += "<p>Pantalón ancho</p>";
+    elemento.innerHTML += numA;
+    array.push(numB);
+}
      
 // let solicitud = arrayfiltrado[i];
 // let elemento = document.getElementById("op");
@@ -50,7 +111,23 @@ function add1(){
 
 
 
-//BOTÓN I 
+//C. Total de compras mostrará la suma de las prendas que se hayan añadido
+
+//Se deben ir sumando cuando se de al boton de añadir 
+
+console.log(array)
+
+function addsuma(){
+    let elemento = document.getElementById("totalcompra");
+    let suma =0
+    for (let i=0; i< array.length; i++){
+        suma += array[i];
+          
+        elemento.innerHTML = suma;
+    }
+    
+    
+}
 
 
 
