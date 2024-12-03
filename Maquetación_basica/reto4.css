@@ -1,0 +1,124 @@
+/* siempre tienen que ser líneas cuadradas  */
+
+.padre{
+    height:500px;
+    width:100%;
+    display:grid;
+    grid-template-areas: "header header imagen"
+                         "orangex redx redx"
+                         "orangex redx redx"
+                         "orangex redx redx"
+                         "orangex redx redx"
+                         "orangex redx redx"
+                         "footer footer footer";
+}
+
+
+/* .header{grid-area:header;}
+.imagen{grid-area:imagen;}
+.orangex{grid-area: orangex;}
+.redx{grid-area:redx;}
+.footer{grid-area:footer;} */
+
+.header{
+    background-color: rgb(158, 63, 13);
+    color:white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: header;
+
+}
+
+.imagen{
+    background-color: rgb(96, 38, 7);
+    color:white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: imagen;
+}
+
+.orangex{
+    background-color: rgb(255, 106, 0);
+    color:white;
+    grid-area: orangex;
+    display: grid;
+    grid-template-areas: "aside"
+                         "asideO"
+                         "aside2";
+}
+
+.redx{
+    background-color: rgb(255, 55, 0);
+    color:white;
+    grid-area: redx;
+    display: grid;
+    grid-template-areas: "contenido"
+                         "texto";
+}
+
+.footer{
+    background-color: rgb(96, 38, 7);
+    color:white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: footer;
+}
+
+.aside{
+    background-color: white;
+    color: rgb(255, 106, 0);
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: aside;
+    margin:10px 10px 0px 10px ;
+}
+
+.asideO{
+    background-color:rgb(255, 106, 0);
+    color: white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: asideO;
+    margin:10px 10px 10px 10px ;
+}
+
+.aside2{
+    background-color: white;
+    color: rgb(255, 106, 0);
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: aside2;
+    margin:0px 10px 10px 10px ;
+
+}
+
+
+.contenido{
+    background-color: rgb(255, 55, 0) ;
+    color:white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: contenido;
+    border: 2px solid white;
+    margin:10px 10px 3px 10px ;
+}
+
+.texto{
+    background-color: rgb(255, 55, 0) ;
+    color:white;
+    display: grid; 
+    justify-items: center;
+    padding-top: 10px;
+    grid-area: texto;
+    border: 2px solid white;
+    margin:3px 10px 10px 10px ;
+}
+
+
