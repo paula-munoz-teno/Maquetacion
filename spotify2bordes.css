@@ -12,7 +12,7 @@ body{
 .padre{
     height: 400vh;
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 
 }
 
@@ -44,7 +44,7 @@ header{
 #f1 {
     height: 65px;
     width: 190px;
-    /* border: 2px rgb(0, 255, 255); */
+    border: 2px rgb(0, 255, 255);
     margin-left: 200px;
 }
 .header2{
@@ -75,7 +75,7 @@ a{
 }
 
 .h1{
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     width: 100%;
     height: 13%;
     display: flex;
@@ -87,7 +87,7 @@ a{
 }
 
 .h11{
-    /* border: 5px solid rgb(0, 255, 98); */
+    border: 5px solid rgb(0, 255, 98);
     width: 30%;
     height: 100%;
     display: flex;
@@ -225,7 +225,7 @@ a{
 
 
 .h12{
-    /* border: 5px solid orange; */
+    border: 5px solid orange;
     width: 30%;
     height: 100%;
     display: flex;
@@ -248,7 +248,7 @@ a{
 
 
 .h2{
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     width: 100%;
     height: 25%;
     display: flex;
@@ -381,7 +381,7 @@ text-decoration-color: white;
 
 
 .h3{
-    /* border: 2px solid green ; */
+    border: 2px solid green ;
     width: 100%;
     height: 15%;
     display: flex;
@@ -463,7 +463,7 @@ text-decoration-color: white;
 
 
 .h4{
-    /* border: 2px solid blue ; */
+    border: 2px solid blue ;
     width: 100%;
     height: 27%;
     background-color: rgba(12, 12, 12, 0.977);
@@ -471,11 +471,10 @@ text-decoration-color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
 }
 
 .f{
-    /* border: 2px solid white ; */
+    border: 2px solid white ;
     width: 100%;
     height: 50%;
     display: flex;
@@ -550,7 +549,7 @@ text-decoration-color: white;
     background-color: pink;
     color:black;
     border-radius: 25px;
-    border:1px solid pink ;
+    border:1px solid white ;
     width: 200px;
     height: 50px;
     font-weight: 600;
@@ -562,7 +561,7 @@ text-decoration-color: white;
     background-color:rgb(241, 206, 249);
     color:black;
     border-radius: 25px;
-    border:1px solid rgb(241, 206, 249) ;
+    border:1px solid white ;
     width: 200px;
     height: 50px;
     font-weight: 600;
@@ -574,7 +573,7 @@ text-decoration-color: white;
     background-color:rgb(255, 255, 152);
     color:black;
     border-radius: 25px;
-    border:1px solid rgb(255, 255, 152) ;
+    border:1px solid white ;
     width: 200px;
     height: 50px;
     font-weight: 600;
@@ -587,7 +586,7 @@ text-decoration-color: white;
     background-color:rgb(190, 216, 246);
     color:black;
     border-radius: 25px;
-    border:1px solid rgb(190, 216, 246) ;
+    border:1px solid white ;
     width: 200px;
     height: 50px;
     font-weight: 600;
@@ -601,7 +600,7 @@ text-decoration-color: white;
 
 
 .h5{
-    /* border: 2px solid pink; */
+    border: 2px solid pink;
     width: 100%;
     height: 15%;
     background-color: rgba(12, 12, 12, 0.977);
